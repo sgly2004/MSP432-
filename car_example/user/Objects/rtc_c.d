@@ -1,0 +1,17 @@
+.\objects\rtc_c.o: ..\sys\driverlib\MSP432P4xx\rtc_c.c
+.\objects\rtc_c.o: ..\sys\driverlib\MSP432P4xx\rtc_c.h
+.\objects\rtc_c.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtc_c.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\rtc_c.o: ..\sys\inc\msp.h
+.\objects\rtc_c.o: ..\sys\inc\msp432p401r.h
+.\objects\rtc_c.o: ..\sys\inc\msp_compatibility.h
+.\objects\rtc_c.o: ..\sys\inc\msp432p401r_classic.h
+.\objects\rtc_c.o: ..\sys\inc\CMSIS\core_cm4.h
+.\objects\rtc_c.o: ..\sys\inc\CMSIS\core_cmInstr.h
+.\objects\rtc_c.o: ..\sys\inc\CMSIS\cmsis_armcc.h
+.\objects\rtc_c.o: ..\sys\inc\CMSIS\core_cmFunc.h
+.\objects\rtc_c.o: ..\sys\inc\CMSIS\core_cmSimd.h
+.\objects\rtc_c.o: ..\sys\inc\system_msp432p401r.h
+.\objects\rtc_c.o: ..\sys\driverlib\MSP432P4xx\interrupt.h
+.\objects\rtc_c.o: ..\sys\driverlib\MSP432P4xx\debug.h
+.\objects\rtc_c.o: ..\sys\driverlib\MSP432P4xx\hw_memmap.h

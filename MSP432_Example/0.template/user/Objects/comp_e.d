@@ -1,0 +1,16 @@
+.\objects\comp_e.o: ..\sys\driverlib\MSP432P4xx\comp_e.c
+.\objects\comp_e.o: ..\sys\driverlib\MSP432P4xx\comp_e.h
+.\objects\comp_e.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\comp_e.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\comp_e.o: ..\sys\inc\msp.h
+.\objects\comp_e.o: ..\sys\inc\msp432p401r.h
+.\objects\comp_e.o: ..\sys\inc\msp_compatibility.h
+.\objects\comp_e.o: ..\sys\inc\msp432p401r_classic.h
+.\objects\comp_e.o: ..\sys\inc\CMSIS\core_cm4.h
+.\objects\comp_e.o: ..\sys\inc\CMSIS\core_cmInstr.h
+.\objects\comp_e.o: ..\sys\inc\CMSIS\cmsis_armcc.h
+.\objects\comp_e.o: ..\sys\inc\CMSIS\core_cmFunc.h
+.\objects\comp_e.o: ..\sys\inc\CMSIS\core_cmSimd.h
+.\objects\comp_e.o: ..\sys\inc\system_msp432p401r.h
+.\objects\comp_e.o: ..\sys\driverlib\MSP432P4xx\interrupt.h
+.\objects\comp_e.o: ..\sys\driverlib\MSP432P4xx\debug.h

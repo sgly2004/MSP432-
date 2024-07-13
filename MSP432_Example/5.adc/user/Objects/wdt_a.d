@@ -1,0 +1,17 @@
+.\objects\wdt_a.o: ..\sys\driverlib\MSP432P4xx\wdt_a.c
+.\objects\wdt_a.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\wdt_a.o: ..\sys\driverlib\MSP432P4xx\wdt_a.h
+.\objects\wdt_a.o: ..\sys\inc\msp.h
+.\objects\wdt_a.o: ..\sys\inc\msp432p401r.h
+.\objects\wdt_a.o: ..\sys\inc\msp_compatibility.h
+.\objects\wdt_a.o: ..\sys\inc\msp432p401r_classic.h
+.\objects\wdt_a.o: ..\sys\inc\CMSIS\core_cm4.h
+.\objects\wdt_a.o: ..\sys\inc\CMSIS\core_cmInstr.h
+.\objects\wdt_a.o: ..\sys\inc\CMSIS\cmsis_armcc.h
+.\objects\wdt_a.o: ..\sys\inc\CMSIS\core_cmFunc.h
+.\objects\wdt_a.o: ..\sys\inc\CMSIS\core_cmSimd.h
+.\objects\wdt_a.o: ..\sys\inc\system_msp432p401r.h
+.\objects\wdt_a.o: ..\sys\driverlib\MSP432P4xx\sysctl.h
+.\objects\wdt_a.o: ..\sys\driverlib\MSP432P4xx\debug.h
+.\objects\wdt_a.o: ..\sys\driverlib\MSP432P4xx\interrupt.h
+.\objects\wdt_a.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdbool.h

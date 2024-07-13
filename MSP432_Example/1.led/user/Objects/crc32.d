@@ -1,0 +1,15 @@
+.\objects\crc32.o: ..\sys\driverlib\MSP432P4xx\crc32.c
+.\objects\crc32.o: ..\sys\driverlib\MSP432P4xx\crc32.h
+.\objects\crc32.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\crc32.o: ..\sys\inc\msp.h
+.\objects\crc32.o: ..\sys\inc\msp432p401r.h
+.\objects\crc32.o: ..\sys\inc\msp_compatibility.h
+.\objects\crc32.o: ..\sys\inc\msp432p401r_classic.h
+.\objects\crc32.o: ..\sys\inc\CMSIS\core_cm4.h
+.\objects\crc32.o: ..\sys\inc\CMSIS\core_cmInstr.h
+.\objects\crc32.o: ..\sys\inc\CMSIS\cmsis_armcc.h
+.\objects\crc32.o: ..\sys\inc\CMSIS\core_cmFunc.h
+.\objects\crc32.o: ..\sys\inc\CMSIS\core_cmSimd.h
+.\objects\crc32.o: ..\sys\inc\system_msp432p401r.h
+.\objects\crc32.o: ..\sys\driverlib\MSP432P4xx\debug.h
+.\objects\crc32.o: ..\sys\driverlib\MSP432P4xx\hw_memmap.h

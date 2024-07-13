@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 1733149, HP Inc., LIC=JL28G-V0NK1-56SQ2-9FQVP-EDBAD-I7KKF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  D:\keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.31.18.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+C:\Users\17331\Desktop\µçÈü\msp432\MSP432_Example\6.tim\user\MSP432.uvprojx
+Project File Date:  04/04/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling isr.c...
+isr.c(423): error:  #20: identifier "ADC_14" is undefined
+  	ADC_14.value = ADC14->MEM[0];
+isr.c: 0 warnings, 1 error
+compiling ml_delay.c...
+compiling main.c...
+main.c(8): warning:  #223-D: function "tim_interrupt_ms_init" declared implicitly
+  	tim_interrupt_ms_init(TIMA_0, 50);
+main.c: 1 warning, 0 errors
+compiling ml_pwm.c...
+compiling ml_tim.c...
+compiling ml_gpio.c...
+compiling ml_oled.c...
+compiling ml_adc.c...
+..\ml_libs\ml_adc.c(3): error:  #20: identifier "ADC_TypeDef" is undefined
+  ADC_TypeDef ADC_14;
+..\ml_libs\ml_adc.c(11): error:  #20: identifier "ADC_CHn_eunm" is undefined
+  void adc_pin_init(ADC_CHn_eunm chn)
+..\ml_libs\ml_adc.c(15): error:  #20: identifier "ADC_CH0" is undefined
+  		case ADC_CH0:
+..\ml_libs\ml_adc.c(21): error:  #20: identifier "ADC_CH1" is undefined
+  		case ADC_CH1:
+..\ml_libs\ml_adc.c(27): error:  #20: identifier "ADC_CH2" is undefined
+  		case ADC_CH2:
+..\ml_libs\ml_adc.c(33): error:  #20: identifier "ADC_CH3" is undefined
+  		case ADC_CH3:
+..\ml_libs\ml_adc.c(39): error:  #20: identifier "ADC_CH4" is undefined
+  		case ADC_CH4:
+..\ml_libs\ml_adc.c(45): error:  #20: identifier "ADC_CH5" is undefined
+  		case ADC_CH5:
+..\ml_libs\ml_adc.c(51): error:  #20: identifier "ADC_CH6" is undefined
+  		case ADC_CH6:
+..\ml_libs\ml_adc.c(57): error:  #20: identifier "ADC_CH7" is undefined
+  		case ADC_CH7:
+..\ml_libs\ml_adc.c(63): error:  #20: identifier "ADC_CH8" is undefined
+  		case ADC_CH8:
+..\ml_libs\ml_adc.c(78): error:  #20: identifier "ADC_CHn_eunm" is undefined
+  void adc_start(ADC_CHn_eunm chn)
+..\ml_libs\ml_adc.c(95): error:  #20: identifier "ADC_CHn_eunm" is undefined
+  uint16_t adc_get(ADC_CHn_eunm chn)
+..\ml_libs\ml_adc.c(112): error:  #20: identifier "ADC_CHn_eunm" is undefined
+  void adc_init(ADC_CHn_eunm chn)
+..\ml_libs\ml_adc.c: 0 warnings, 14 errors
+compiling ml_mpu6050.c...
+compiling ml_uart.c...
+compiling ml_i2c.c...
+compiling ml_exti.c...
+".\Objects\MSP432.axf" - 15 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: TexasInstruments
+                http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/mspkeil/latest/exports/TexasInstruments.MSP432.1.0.0.pack
+                TexasInstruments.MSP432.1.0.0
+                Device Family Pack for Texas Instruments MSP432 Family
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\ArmPacks\TexasInstruments\MSP432\1.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

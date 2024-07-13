@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp
+".\objects\main.o"
+".\objects\isr.o"
+".\objects\motor.o"
+".\objects\pid.o"
+"..\sys\driverlib\MSP432P4xx\keil\msp432p4xx_driverlib.lib"
+".\objects\startup_msp432p401r_uvision.o"
+".\objects\system_msp432p401r.o"
+".\objects\interrupt.o"
+".\objects\ml_gpio.o"
+".\objects\ml_delay.o"
+".\objects\ml_oled.o"
+".\objects\ml_tim.o"
+".\objects\ml_pwm.o"
+".\objects\ml_uart.o"
+".\objects\ml_exti.o"
+".\objects\ml_mpu6050.o"
+".\objects\ml_i2c.o"
+".\objects\ml_hmc5883l.o"
+--strict --scatter ".\Objects\MSP432.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\MSP432.map" -o .\Objects\MSP432.axf

@@ -1,0 +1,13 @@
+.\objects\fpu.o: ..\sys\driverlib\MSP432P4xx\fpu.c
+.\objects\fpu.o: ..\sys\driverlib\MSP432P4xx\fpu.h
+.\objects\fpu.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\fpu.o: ..\sys\inc\msp.h
+.\objects\fpu.o: ..\sys\inc\msp432p401r.h
+.\objects\fpu.o: ..\sys\inc\msp_compatibility.h
+.\objects\fpu.o: ..\sys\inc\msp432p401r_classic.h
+.\objects\fpu.o: ..\sys\inc\CMSIS\core_cm4.h
+.\objects\fpu.o: ..\sys\inc\CMSIS\core_cmInstr.h
+.\objects\fpu.o: ..\sys\inc\CMSIS\cmsis_armcc.h
+.\objects\fpu.o: ..\sys\inc\CMSIS\core_cmFunc.h
+.\objects\fpu.o: ..\sys\inc\CMSIS\core_cmSimd.h
+.\objects\fpu.o: ..\sys\inc\system_msp432p401r.h

@@ -1,0 +1,16 @@
+.\objects\timer_a.o: ..\sys\driverlib\MSP432P4xx\timer_a.c
+.\objects\timer_a.o: ..\sys\driverlib\MSP432P4xx\timer_a.h
+.\objects\timer_a.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer_a.o: ..\sys\inc\msp.h
+.\objects\timer_a.o: ..\sys\inc\msp432p401r.h
+.\objects\timer_a.o: ..\sys\inc\msp_compatibility.h
+.\objects\timer_a.o: ..\sys\inc\msp432p401r_classic.h
+.\objects\timer_a.o: ..\sys\inc\CMSIS\core_cm4.h
+.\objects\timer_a.o: ..\sys\inc\CMSIS\core_cmInstr.h
+.\objects\timer_a.o: ..\sys\inc\CMSIS\cmsis_armcc.h
+.\objects\timer_a.o: ..\sys\inc\CMSIS\core_cmFunc.h
+.\objects\timer_a.o: ..\sys\inc\CMSIS\core_cmSimd.h
+.\objects\timer_a.o: ..\sys\inc\system_msp432p401r.h
+.\objects\timer_a.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\timer_a.o: ..\sys\driverlib\MSP432P4xx\interrupt.h
+.\objects\timer_a.o: ..\sys\driverlib\MSP432P4xx\debug.h

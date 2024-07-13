@@ -1,0 +1,16 @@
+.\objects\systick.o: ..\sys\driverlib\MSP432P4xx\systick.c
+.\objects\systick.o: ..\sys\driverlib\MSP432P4xx\debug.h
+.\objects\systick.o: ..\sys\driverlib\MSP432P4xx\interrupt.h
+.\objects\systick.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick.o: C:\Keil_v5mdk\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\systick.o: ..\sys\inc\msp.h
+.\objects\systick.o: ..\sys\inc\msp432p401r.h
+.\objects\systick.o: ..\sys\inc\msp_compatibility.h
+.\objects\systick.o: ..\sys\inc\msp432p401r_classic.h
+.\objects\systick.o: ..\sys\inc\CMSIS\core_cm4.h
+.\objects\systick.o: ..\sys\inc\CMSIS\core_cmInstr.h
+.\objects\systick.o: ..\sys\inc\CMSIS\cmsis_armcc.h
+.\objects\systick.o: ..\sys\inc\CMSIS\core_cmFunc.h
+.\objects\systick.o: ..\sys\inc\CMSIS\core_cmSimd.h
+.\objects\systick.o: ..\sys\inc\system_msp432p401r.h
+.\objects\systick.o: ..\sys\driverlib\MSP432P4xx\systick.h
